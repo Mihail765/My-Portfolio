@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihail Miloshevski Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Mihail Miloshevski</a>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Junior Frontend Developer</h1>
+                <p>A passionate frontend developer with a keen eye for design and a commitment to creating seamless user experiences.</p>
+                <div class="tech-stack">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">JavaScript</span>
+                </div>
+                <!-- <a href="#contact" class="btn">Let's Collaborate</a> -->
+            </div>
+            <div class="profile-container">
+                <img src="images/MIKI SLIKA SKILLUP.jpg" alt="Mihail Miloshevski - Frontend Developer" class="profile-img">
+                <div class="floating-card skills">
+                    <h3>Core Skills</h3>
+                    <p>HTML • CSS • JavaScript</p>
+                </div>
+                <div class="floating-card experience">
+                    <h3>Experience</h3>
+                    <p>Frontend Developer in Training</p>
+                    <p>Studying at Skill Up Academy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>
+                        I am a passionate Frontend Developer with a strong foundation in HTML, CSS, and Bootstrap, currently expanding my expertise in JavaScript.
+                        Studying at Skill Up Academy, I have built multiple projects to strengthen my skills. My goal is to become a Full Stack Developer and
+                        contribute to innovative web applications. I am actively seeking job opportunities where I can apply my knowledge and grow further.
+                    </p>                    
+                    <div class="achievement-card">
+                        <h3>Career Highlights</h3>
+                        <ul>
+                            <li>Frontend Development Student - Skill Up Academy</li>
+                            <li>Certified in Web Design</li>
+                            <li>Upcoming Certification in Web Development (2024)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="achievement-card">
+                        <h3>Education & Certifications</h3>
+                        <ul>
+                            <li>Built multiple responsive websites using HTML, CSS, and Bootstrap</li>
+                            <li>Actively learning JavaScript to expand frontend skills</li>
+                            <li>Developing personal projects to showcase my work</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="section">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <p>
+                I started my web development journey at Skill Up Academy, where I learned the fundamentals of frontend technologies like 
+                HTML, CSS, and Bootstrap. Currently, I am deepening my knowledge of JavaScript and aiming to transition into Full Stack Development.
+                My goal is to master React, Node.js, and databases to build scalable and dynamic applications.
+            </p>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p>
+                As a frontend developer, I have a strong foundation in essential web technologies. Below are my core skills and areas of expertise.
+            </p>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic HTML, SEO-friendly structure, and best practices.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, animations, and modern design principles.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-bootstrap"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Responsive layouts, custom components, and UI frameworks.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, and interactive web elements.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Version Control (Git)</h3>
+                    <p>Using Git for version control, collaborating on projects, and managing repositories on GitHub.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Future Skills (Full-Stack) -->
+                <!-- <div class="skill-card">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js & Express</h3>
+                    <p>Server-side JavaScript, building APIs, and handling backend logic.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases (SQL/NoSQL)</h3>
+                    <p>Learning how to work with MySQL, PostgreSQL, and MongoDB for storing and managing data.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 40%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React.js</h3>
+                    <p>Building dynamic and interactive UIs using React and state management tools like Redux.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Platforms (AWS, Azure)</h3>
+                    <p>Learning how to deploy and manage applications on cloud platforms like AWS and Azure.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 25%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>DevOps (Docker, Kubernetes)</h3>
+                    <p>Understanding containerization and deployment processes using Docker and Kubernetes.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 20%"></div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+                
+
+
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/projects/slikiProjects/MovieWebsite2.png" alt="SaaS Dashboard" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">TechMarket E-commerce</h3>
+                        <p>Full-featured e-commerce platform built with Next.js, Redux, and Stripe integration. Features include real-time inventory, advanced filtering, and AR product preview.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Next.js</span>
+                            <span class="tech-badge">Redux</span>
+                            <span class="tech-badge">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/projects/slikiProjects/HumanitarenCas-Mihail - Copy.png" alt="" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p>Real-time analytics dashboard for SaaS businesses. Built with Vue.js and D3.js, featuring live data updates, custom visualizations, and exportable reports.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Vue.js</span>
+                            <span class="tech-badge">D3.js</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/projects/slikiProjects/Majstor - Copy.png" alt="Social Platform" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Social Learning Platform</h3>
+                        <p>Educational platform with real-time collaboration features, video conferencing, and interactive quizzes. Built with React and WebRTC.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">WebRTC</span>
+                            <span class="tech-badge">Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>milosevskimihail123@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+389 76 640 750</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Macedonia, Bitola</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required placeholder="Write your message"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+        </div>
+    </section>    
+    <script src="index.js"></script>
+</body>
+</html>
