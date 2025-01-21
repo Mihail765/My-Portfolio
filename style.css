@@ -704,7 +704,7 @@ nav {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 475px) {
     .hero {
         min-height: 80vh; 
         margin-top: 15px;
