@@ -188,5 +188,5 @@ function sendMail(){
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value,
     }
-    emailjs.send("service_1l9n461", "template_dq2n1mf", parms).then(alert("Email Sent!!!"));
+    emailjs.send("service_c5df02v", "template_dq2n1mf", parms).then(alert("Email Sent!!!"));
 }
