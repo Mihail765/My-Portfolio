@@ -170,24 +170,22 @@ mobileMenuBtn.addEventListener('click', () => {
 
 
 
-// Form Handling
-const form = document.querySelector('.contact-form');
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Thank you for your message! I will get back to you soon.');
-    form.reset();
-});
-
-
-// send mail
-
 function sendMail(){
     let parms = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value,
-    }
-    emailjs.send("service_ostdbee", "template_dq2n1mf", parms).then(alert("Email Sent!!!"));
+    };
+
+    emailjs.send("service_ostdbee", "template_dq2n1mf", parms)
+    .then(() => {
+        alert("Email Sent!");
+        form.reset();
+    })
+    .catch((error) => {
+        console.error("Email failed:", error);
+        alert("Failed to send email. Please try again later.");
+    });
 }
 
